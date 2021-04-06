@@ -4,6 +4,7 @@ function update() {
         .then(res => res.json())
         .then(data => {
             document.getElementById("Output").innerHTML = "Erkrankt "+data.active;
+            console.log("Refreshed everything!");
         });
 }
 
