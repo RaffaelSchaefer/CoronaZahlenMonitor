@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Corona Monitor</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="img/Logo/Logo_black.png" rel="icon" type="image/png">
+</head>
+<body onload="autoRefresh(25000)">
+    <div id="Container">
+        <h1 id="Output" ></h1>
+        <button type="button" id="Update" onclick="update()">Refresh</button>
+        <script type="text/javascript" SRC="covid.js"></script>
+</body>
+</html>
