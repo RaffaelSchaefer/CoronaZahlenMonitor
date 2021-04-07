@@ -1,5 +1,8 @@
 function update() {
     var url = 'https://corona.lmao.ninja/v2/countries/Germany';
+    var noise = new Audio('soundscapes/ocean_waves.mp3');
+    noise.volume = 0.05;
+    noise.play();
     fetch(url)
         .then(res => res.json())
         .then(data => {

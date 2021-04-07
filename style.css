@@ -51,6 +51,18 @@ h1 {
     padding: 10px;
 }
 
+#Stayathome {
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: "lexend", Arial, sans-serif;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 25pt;
+}
+
 @keyframes tide {
     0% {
         background-position: 0 50%;

@@ -1,5 +1,4 @@
-# Corona Fallzahl Monitor
-Ein kleiner Corona Monitor. 
-Er zeigt die aktuellen erkrankten in Deutschland an.
-## Genutzte Api
+# Covid Stats
+A small Website which displays the active covid-19 cases in Germany it all so plays soothing ocean sounds to relax the viewer.
+## Used Api
 - https://corona.lmao.ninja/ from disease.sh
