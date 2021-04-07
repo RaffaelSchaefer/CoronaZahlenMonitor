@@ -14,7 +14,7 @@ function update() {
                     document.getElementById("Output").innerHTML = "Infiziert "+data.active;
                     break;
                 case 1:
-                    document.getElementById("Output").innerHTML = "Geheilt "+data.recovered;
+                    document.getElementById("Output").innerHTML = "Genesen "+data.recovered;
                     break;
                 case 2:
                     document.getElementById("Output").innerHTML = "Gestorben "+data.deaths;
@@ -36,7 +36,7 @@ function next() {
             break;
         default:
             index = 0;
-            document.getElementById("Update").innerHTML = "Geheilt"
+            document.getElementById("Update").innerHTML = "Genesen"
             break;
     }
     update()
