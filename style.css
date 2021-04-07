@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap');
 
 * {
@@ -9,7 +9,7 @@
 
 html {
     font-size: 10pt;
-    font-family: "Dela Gothic One", "Lexend", Arial, sans-serif;
+    font-family: 'Raleway', "Lexend", Arial, sans-serif;
 }
 
 h1 {
@@ -17,14 +17,14 @@ h1 {
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    font-size: 75pt;
+    font-size: 100pt;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 #Update {
     position: absolute;
-    top:80%;
+    top:75%;
     left:50%;
     transform: translate(-50%,-50%);
     font-family: "lexend", Arial, sans-serif;
@@ -53,7 +53,7 @@ h1 {
 
 #Stayathome {
     position: absolute;
-    top:30%;
+    top:25%;
     left:50%;
     transform: translate(-50%,-50%);
     font-family: "lexend", Arial, sans-serif;
