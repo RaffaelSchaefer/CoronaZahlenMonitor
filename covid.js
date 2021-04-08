@@ -11,16 +11,20 @@ function update() {
         .then(data => {
             switch (index) {
                 case 0:
-                    document.getElementById("Output").innerHTML = "Infiziert "+data.active;
+                    document.getElementById("Output").innerHTML = "Infiziert ";
+                    document.getElementById("Value").innerHTML = data.active;
                     break;
                 case 1:
-                    document.getElementById("Output").innerHTML = "Genesen "+data.recovered;
+                    document.getElementById("Output").innerHTML = "Genesen ";
+                    document.getElementById("Value").innerHTML = data.recovered;
                     break;
                 case 2:
-                    document.getElementById("Output").innerHTML = "Intensiv Fall "+data.critical;
+                    document.getElementById("Output").innerHTML = "Intensiv Fälle ";
+                    document.getElementById("Value").innerHTML = data.critical;
                     break;
                 case 3:
-                    document.getElementById("Output").innerHTML = "Gestorben "+data.deaths;
+                    document.getElementById("Output").innerHTML = "Gestorben ";
+                    document.getElementById("Value").innerHTML = data.deaths;
                     break;
             }
             console.log("Refreshed everything!");

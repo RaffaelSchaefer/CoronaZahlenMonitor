@@ -13,18 +13,28 @@ html {
 }
 
 h1 {
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    font-size: 100pt;
+    font-size: 80pt;
     text-align: center;
     letter-spacing: 2px;
 }
 
+#Output {
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+#Value {
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
 #Update {
     position: absolute;
-    top:75%;
+    top:80%;
     left:50%;
     transform: translate(-50%,-50%);
     font-family: "lexend", Arial, sans-serif;
@@ -53,7 +63,7 @@ h1 {
 
 #Stayathome {
     position: absolute;
-    top:25%;
+    top:20%;
     left:50%;
     transform: translate(-50%,-50%);
     font-family: "lexend", Arial, sans-serif;
