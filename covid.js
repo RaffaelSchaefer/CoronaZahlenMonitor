@@ -17,6 +17,9 @@ function update() {
                     document.getElementById("Output").innerHTML = "Genesen "+data.recovered;
                     break;
                 case 2:
+                    document.getElementById("Output").innerHTML = "Intensiv Fall "+data.critical;
+                    break;
+                case 3:
                     document.getElementById("Output").innerHTML = "Gestorben "+data.deaths;
                     break;
             }
@@ -28,15 +31,15 @@ function next() {
     switch (index) {
         case 0:
             index++;
-            document.getElementById("Update").innerHTML = "Gestorben"
             break;
         case 1:
             index++;
-            document.getElementById("Update").innerHTML = "Infiziert"
+            break;
+        case 2:
+            index++;
             break;
         default:
             index = 0;
-            document.getElementById("Update").innerHTML = "Genesen"
             break;
     }
     update()
