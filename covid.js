@@ -1,9 +1,9 @@
 
-var index = -1;
+let index = -1;
 
 function update() {
-    var url = 'https://corona.lmao.ninja/v2/countries/Germany';
-    var noise = new Audio('soundscapes/ocean_waves.mp3');
+    let url = 'https://corona.lmao.ninja/v2/countries/Germany';
+    let noise = new Audio('soundscapes/ocean_waves.mp3');
     noise.volume = 0.1;
     noise.play();
     fetch(url)
