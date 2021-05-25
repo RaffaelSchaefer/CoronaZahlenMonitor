@@ -12,7 +12,7 @@
     "url": "git+https://github.com/RaffaelSchaefer/CovidStats.git"
   },
   "author": "Raffael Elias Schäfer",
-  "license": "MIT",
+  "license": "GNU 3.0",
   "bugs": {
     "url": "https://github.com/RaffaelSchaefer/CovidStats/issues"
   },
