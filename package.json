@@ -1,0 +1,24 @@
+{
+  "name": "covidstats",
+  "version": "1.0.0",
+  "description": "A small Website that shows the daily covid-19 stats",
+  "main": "index.html",
+  "scripts": {
+    "sass_compile": "node-sass --include-path sass sass/style.sass css/style.css",
+    "typescript_compile": "tsc --build tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaffaelSchaefer/CovidStats.git"
+  },
+  "author": "Raffael Elias Schäfer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RaffaelSchaefer/CovidStats/issues"
+  },
+  "homepage": "https://github.com/RaffaelSchaefer/CovidStats#readme",
+  "dependencies": {
+    "node-sass": "^6.0.0",
+    "sass": "^1.34.0"
+  }
+}
