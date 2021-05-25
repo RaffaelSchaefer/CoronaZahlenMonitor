@@ -52,7 +52,11 @@ function autoRefresh(t: number) {
     setTimeout("next();autoRefresh(25000)", t);
 }
 
-document.getElementById("update")!.addEventListener('click', function () {
+document.getElementById("output")!.addEventListener('click', function () {
+    next();
+})
+
+document.getElementById("value")!.addEventListener('click', function () {
     next();
 })
 
